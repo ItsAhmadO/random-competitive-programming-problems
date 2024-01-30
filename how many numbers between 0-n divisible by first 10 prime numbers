@@ -17,7 +17,7 @@ int main(){
             }
         }
         
-        if(__builtin_popcount(i) % 2 == 0){
+        if(__builtin_popcount(i) % 2 == 0){ // popcount checks num of set bits
             ans -= (n/lcm);
         }
         else{
